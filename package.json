@@ -1,0 +1,27 @@
+{
+  "name": "video-player-decoder",
+  "version": "1.0.0",
+  "description": "该项目目标：实现在 web 解码，做到和桌面端差不多的播放器解码能力，计划支持 av1、h265、vp8、vp9等常见编码格式，可能需要一年以上？大概，先建个仓库先",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diy4869/video-player-decoder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diy4869/video-player-decoder/issues"
+  },
+  "homepage": "https://github.com/diy4869/video-player-decoder#readme",
+  "devDependencies": {
+    "@types/node": "^18.16.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@ffmpeg/core": "^0.11.0",
+    "@ffmpeg/ffmpeg": "^0.11.6"
+  }
+}
